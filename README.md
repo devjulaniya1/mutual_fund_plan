@@ -17,17 +17,17 @@ The goal of this project is to:
 ## 🧩 Project Structure
 📁 Mutual Fund Plan with Python
 │
-├── 📄 mutual_fund_plan.py # Python script for analysis and visualization
-├── 📄 nifty50_closing_prices.csv # Historical stock data (Nifty 50)
-├── 📄 README.md # Project documentation
 
-markdown
-Copy code
+├── 📄 mutual_fund_plan.py # Python script for analysis and visualization
+
+├── 📄 nifty50_closing_prices.csv # Historical stock data (Nifty 50)
+
+├── 📄 README.md # Project documentation
 
 ---
 
 ## 🛠️ Technologies Used
-- **Python 3.x**
+- **Python 3.3**
 - **Pandas** – Data cleaning and financial metric calculations  
 - **NumPy** – Statistical computations and ROI simulations  
 - **Plotly** – Interactive data visualization (line charts, bar charts)  
@@ -85,47 +85,55 @@ Copy code
 
 ### Prerequisites
 Install the required libraries:
-```bash
+
 pip install pandas numpy plotly
+
 Run the Script
+
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/<your-username>/mutual-fund-plan-python.git
+git clone https://github.com/devjulaniya1/mutual_fund_plan.git
+
 cd mutual-fund-plan-python
+
 Run the Python script:
 
-bash
-Copy code
 python mutual_fund_plan.py
+
 Interactive visualizations will open in your browser or notebook interface.
 
+---
+
 📚 Financial Concepts Used
-Volatility (Risk) – Measures price fluctuations
+- **Volatility (Risk)** – Measures price fluctuations
 
-Return on Investment (ROI) – Measures overall profit
+- **Return on Investment (ROI)** – Measures overall profit
 
-Sharpe Ratio (conceptual) – Risk-adjusted performance indicator
+- **Sharpe Ratio (conceptual)** – Risk-adjusted performance indicator
 
-Monte Carlo Simulation (optional extension) – Predicts potential outcomes
+- **Monte Carlo Simulation (optional extension)** – Predicts potential outcomes
 
-Mean-Variance Optimization (conceptual) – Balances risk and return
+- **Mean-Variance Optimization (conceptual)** – Balances risk and return
+
+---
 
 🧠 Insights & Recommendations
-Investors can achieve steady returns by focusing on low-volatility, high-ROI stocks.
 
-Diversification across industries reduces exposure to single-stock risk.
+- Investors can achieve steady returns by focusing on low-volatility, high-ROI stocks.
 
-Regular SIP investments benefit from compounding and market averaging.
+- Diversification across industries reduces exposure to single-stock risk.
 
-The project can be extended with:
+- Regular SIP investments benefit from compounding and market averaging.
 
-Streamlit/Dash dashboard for interactivity
+**The project can be extended with:**
 
-Monte Carlo simulations for future risk estimation
+- Streamlit/Dash dashboard for interactivity
 
-Mean-Variance Optimization for optimal portfolio allocation
+- Monte Carlo simulations for future risk estimation
+
+- Mean-Variance Optimization for optimal portfolio allocation
+
+---
 
 📽️ Demo Summary
 Objective: Create a mutual fund portfolio that balances risk and reward.
